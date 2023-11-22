@@ -1,0 +1,63 @@
+﻿  App.cpp
+  ExtendedTest.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(116,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(126,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(134,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(142,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(251,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ShortTest.cpp
+  SMIterator.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SMIterator.cpp(14,11): error C2039: 'sorted': is not a member of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SMIterator.cpp(14,24): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SMIterator.cpp(14,34): error C2059: syntax error: ')'
+  SortedMap.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(26,2): error C2679: binary '=': no operator found which takes a right-hand operand of type 'TElem *' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1566,26): message : could be 'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=TElem
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1545,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(const std::vector<TElem,std::allocator<TElem>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(798,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::vector<TElem,std::allocator<TElem>> &&) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(26,2): message : while trying to match the argument list '(std::vector<TElem,std::allocator<TElem>>, TElem *)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(67,26): error C2676: binary '!=': 'TElem' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(2299,17): message : could be 'bool std::operator !=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(67,24): message : 'bool std::operator !=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': could not deduce template argument for 'const std::vector<_Ty,_Alloc> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(900,17): message : or       'bool std::operator !=(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(67,24): message : 'bool std::operator !=(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept': could not deduce template argument for 'const std::allocator<_Ty> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(3984,30): message : or       'bool std::operator !=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(67,24): message : 'bool std::operator !=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1456,5): message : or       'bool std::operator !=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(67,24): message : 'bool std::operator !=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(383,27): message : or       'bool std::operator !=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(67,24): message : 'bool std::operator !=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'int'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(71,23): error C2676: binary '==': 'TElem' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(2284,30): message : could be 'bool std::operator ==(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(71,21): message : 'bool std::operator ==(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': could not deduce template argument for 'const std::vector<_Ty,_Alloc> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(894,30): message : or       'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(71,21): message : 'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept': could not deduce template argument for 'const std::allocator<_Ty> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(3969,5): message : or       'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(71,21): message : 'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1441,5): message : or       'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(71,21): message : 'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'TElem'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(367,27): message : or       'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(71,21): message : 'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'int'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(95,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(95,23): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(95,33): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(96,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(98,34): error C2143: syntax error: missing ')' before ';'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(98,44): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(107,11): error C2440: 'delete': cannot convert from 'std::vector<TElem,std::allocator<TElem>>' to 'void*'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(107,11): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(109,2): error C2679: binary '=': no operator found which takes a right-hand operand of type 'TElem *' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1566,26): message : could be 'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=TElem
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1545,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(const std::vector<TElem,std::allocator<TElem>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(798,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::vector<TElem,std::allocator<TElem>> &&) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(109,2): message : while trying to match the argument list '(std::vector<TElem,std::allocator<TElem>>, TElem *)'
+  Generating Code...

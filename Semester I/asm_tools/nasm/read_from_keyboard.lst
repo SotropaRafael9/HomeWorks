@@ -1,0 +1,45 @@
+     1                                  ; The code below will calculate the result of some arithmetic operations in the EAX register, save the value of the registers, then display the result value and restore the value of the registers.
+     2                                  bits 32
+     3                                  
+     4                                  global start        
+     5                                  
+     6                                  ; declare extern functions
+     7                                  extern exit, printf  
+     8                                  import exit msvcrt.dll    
+     9                                  import printf msvcrt.dll    ; tell assembler function is found in library msvcrt.dll
+    10                                                            
+    11                                  segment data use32 class=data
+    12                                  	; string of bytes
+    13 00000000 256400                  	format  db "%d", 0  ; %d <=> decimal number
+    14                                  	
+    15                                  segment code use32 class=code
+    16                                  	start:
+    17                                  		; will calculate 20 + 123 + 7 in EAX
+    18 00000000 B814000000              		mov eax, 20
+    19 00000005 83C07B                  		add eax, 123
+    20 00000008 83C007                  		add eax, 7         ; eax = 150 (base 10) or 0x96 (base 16)
+    21                                  		
+    22                                  		; save the value of the registers because printf function call will modify their values 
+    23                                  		; use instruction PUSHAD which saves on stack the values of several registers: EAX, ECX, EDX and EBX 
+    24                                  		; in this example the value of EAX must be saved, but the instruction can be generally applied
+    25 0000000B 60                      		PUSHAD
+    26                                  	   
+    27                                  		; will call printf(format, eax) => will print value from eax
+    28                                  		; place parameters on stack from right to left
+    29 0000000C 50                      		push dword eax
+    30 0000000D 68[00000000]            		push dword format ; ! address of string on stack, not value
+    31 00000012 FF15[00000000]          		call [printf]      ; call function for printing
+    32 00000018 83C408                  		add esp, 4*2       ; free parameters on the stack; 4 = size of dword; 2 = number of parameters
+    33                                  		
+    34                                  		; after function call printf EAX register has a value set by this function (not the value 150 we have computer at the beginning of the program)
+    35                                  		; restore value of registers saved on stack using POPAD
+    36                                  		; this instruction takes values from the stack and restores them in several registers: EAX, ECX, EDX and EBX
+    37                                  		; it is important that before calling instruction POPAD we make sure there are enough values on stack  
+    38                                  		; to be placed in registers (for example make sure that PUSHAD was called before)
+    39 0000001B 61                      		POPAD
+    40                                  		
+    41                                  		; now value from EAX is restored to its previous value just before calling PUSHAD (in this case, value 150)
+    42                                  		
+    43                                  		; exit(0)
+    44 0000001C 6A00                    		push dword 0      ; we place on stack parameter for exit
+    45 0000001E FF15[00000000]          		call [exit]       ; call exit to end the program

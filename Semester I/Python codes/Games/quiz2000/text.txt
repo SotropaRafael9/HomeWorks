@@ -1,0 +1,4 @@
+7 what ['sex', 'a', 'v'] a easy
+1 What is the capital of Romania? ['Bucharest', 'Canada', 'Russia'] Bucharest easy
+4 What is the capital of zimbabue? ['Bucharest', 'Singapore', 'zen'] zen easy
+2 What is the capital of Canada? ['Bucharest', 'Canada', 'Russia'] Canada hard

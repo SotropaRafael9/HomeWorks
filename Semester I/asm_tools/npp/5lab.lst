@@ -1,0 +1,62 @@
+     1                                  bits 32 
+     2                                  global start        
+     3                                  
+     4                                  
+     5                                  extern exit               
+     6                                  import exit msvcrt.dll    
+     7                                  
+     8                                  segment data use32 class=data
+     9                                      ; ...
+    10 00000000 010203                      a db 1, 2, 3
+    11                                      l1 equ $-a ;length of a
+    12 00000003 090807                      b db 9, 8, 7
+    13                                      l2 equ $-b ;length of b 
+    14 00000006 00<rept>                    r times l1 + l2 db 0 ;reserves enough bytes for the destination string
+    15                                  
+    16                                  ; Two character strings A and B are given. Obtain the string R by concatenating the elements of B in reverse order and the elements found on even positions in A.
+    17                                  
+    18                                  segment code use32 class=code
+    19                                      start:
+    20                                          
+    21 00000000 BF[06000000]                    mov edi, r
+    22 00000005 BE[05000000]                    mov esi, b + l2 - 1
+    23 0000000A B903000000                      mov ecx, l2
+    24 0000000F E308                            jecxz EndLoop
+    25                                          StartLoop:
+    26 00000011 8A06                                mov al, [esi]
+    27 00000013 4E                                  dec esi
+    28 00000014 8807                                mov [edi], al
+    29 00000016 47                                  inc edi
+    30 00000017 E2F8                                Loop StartLoop
+    31                                          EndLoop:
+    32                                          
+    33 00000019 BE[00000000]                    mov esi, a
+    34 0000001E B903000000                      mov ecx, l1
+    35                                          StartLoopB:
+    36 00000023 8A06                                mov al, [esi]
+    37 00000025 46                                  inc esi
+    38 00000026 B201                                mov dl, 00000001b
+    39 00000028 20C2                                and dl, al
+    40 0000002A 80FA01                              cmp dl, 1
+    41 0000002D 7402                                je StartIf
+    42 0000002F 7503                                jne EndIf
+    43                                              StartIf:
+    44 00000031 8807                                    mov [edi], al
+    45 00000033 47                                      inc edi
+    46                                              EndIf:
+    47 00000034 E2ED                            loop StartLoopB
+    48                                                 
+    49                                              
+    50                                              
+    51                                          
+    52                                              
+    53                                                  
+    54                                              
+    55                                          
+    56                                          
+    57                                         
+    58                                          
+    59                                          
+    60                                          ; exit(0)
+    61 00000036 6A00                            push    dword 0      
+    62 00000038 FF15[00000000]                  call    [exit]       

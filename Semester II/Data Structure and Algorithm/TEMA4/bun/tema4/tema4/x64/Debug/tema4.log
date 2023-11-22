@@ -1,0 +1,147 @@
+﻿  App.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(51,6): error C2365: 'SortedMap::size': redefinition; previous definition was 'data member'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+  ExtendedTest.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(51,6): error C2365: 'SortedMap::size': redefinition; previous definition was 'data member'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(44,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(44,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(50,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(50,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(116,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(126,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(134,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(142,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(159,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(159,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(162,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(162,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(169,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(169,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(205,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(205,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(224,3): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(224,3): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(232,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(232,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(251,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(287,5): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(287,5): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(292,27): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(292,27): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(310,5): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ExtendedTest.cpp(310,5): error C2064: term does not evaluate to a function taking 0 arguments
+  ShortTest.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(51,6): error C2365: 'SortedMap::size': redefinition; previous definition was 'data member'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ShortTest.cpp(20,2): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ShortTest.cpp(20,2): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ShortTest.cpp(23,5): error C2248: 'SortedMap::size': cannot access private member declared in class 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\ShortTest.cpp(23,5): error C2064: term does not evaluate to a function taking 0 arguments
+  SMIterator.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(51,6): error C2365: 'SortedMap::size': redefinition; previous definition was 'data member'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SMIterator.cpp(14,21): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SMIterator.cpp(14,24): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SMIterator.cpp(14,34): error C2059: syntax error: ')'
+  SortedMap.cpp
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(51,6): error C2365: 'SortedMap::size': redefinition; previous definition was 'data member'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(22,7): message : see declaration of 'SortedMap::size'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(25,8): error C2039: 'hashtable': is not a member of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.h(17,7): message : see declaration of 'SortedMap'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(26,6): error C2679: binary '=': no operator found which takes a right-hand operand of type 'TElem *' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1566,26): message : could be 'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=TElem
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1545,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(const std::vector<TElem,std::allocator<TElem>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(798,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::vector<TElem,std::allocator<TElem>> &&) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(26,6): message : while trying to match the argument list '(std::vector<TElem,std::allocator<TElem>>, TElem *)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(29,3): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(46,12): error C2446: '==': no conversion from 'int' to 'TElem *'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(46,15): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(49,9): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(49,29): error C2143: syntax error: missing ')' before ';'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(49,40): error C2059: syntax error: '&&'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(49,70): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(50,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(53,6): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(53,26): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(53,36): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(54,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(55,3): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(60,2): error C2181: illegal else without matching if
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(62,21): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(63,3): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(75,9): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(75,29): error C2143: syntax error: missing ')' before ';'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(75,40): error C2059: syntax error: '&&'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(75,70): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(76,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(79,6): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(79,26): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(79,36): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(81,2): error C2181: illegal else without matching if
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(82,10): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(91,9): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(91,29): error C2143: syntax error: missing ')' before ';'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(91,40): error C2059: syntax error: '&&'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(91,70): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(92,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(95,6): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(95,26): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(95,36): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(97,2): error C2181: illegal else without matching if
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(99,21): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(100,3): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(122,7): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(122,23): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(122,33): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(123,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(124,28): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(125,34): error C2143: syntax error: missing ')' before ';'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(125,44): error C2059: syntax error: ')'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(129,26): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(133,11): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(133,20): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(134,11): error C2440: 'delete': cannot convert from 'std::vector<TElem,std::allocator<TElem>>' to 'void*'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(134,11): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(135,2): error C2065: 'hashtable': undeclared identifier
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(136,2): error C2679: binary '=': no operator found which takes a right-hand operand of type 'TElem *' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1566,26): message : could be 'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=TElem
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1545,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(const std::vector<TElem,std::allocator<TElem>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(798,26): message : or       'std::vector<TElem,std::allocator<TElem>> &std::vector<TElem,std::allocator<TElem>>::operator =(std::vector<TElem,std::allocator<TElem>> &&) noexcept(<expr>)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(136,2): message : while trying to match the argument list '(std::vector<TElem,std::allocator<TElem>>, TElem *)'
+C:\Users\Rafael\Desktop\Data Structure and Algorithm\TEMA4\tema4\SortedMap.cpp(142,29): error C2063: 'SortedMap::size': not a function
+  Generating Code...
